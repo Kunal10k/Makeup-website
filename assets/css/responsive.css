@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+    .headline {
+        font-size: 25px;
+    }
+
+    .gallery-header .headline {
+        width: 100% !important;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .insta-profile-row {
+        width: 90% !important;
+    }
+
+    .section-header p {
+        width: 100% !important;
+    }
+
+    .inner_banner {
+        min-height: 200px;
+
+    }
+
+    .inner_headline {
+        font-size: 35px;
+    }
+
+    .packages-section p {
+        width: 100% !important;
+    }
+
+    .enquiry-left h2 {
+        font-size: 32px;
+    }
+
+    .enquiry-section {
+        padding: 40px 0;
+    }
+
+
+    .package-content {
+        width: 100%;
+        text-align: left;
+    }
+
+    .img-front {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-top: -223px;
+        width: 70%;
+    }
+}

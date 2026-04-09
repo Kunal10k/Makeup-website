@@ -1,0 +1,102 @@
+:root {
+    --font-1: "Playfair", serif;
+    --font-2: "Futura LT W01 Light Oblique";
+    --headling: 45px;
+    --subheding: 25px;
+    --para: 15px;
+
+    --pearl: #FFFDFA;
+
+    --blush: #F4C5BD;
+
+    --dusk: #C98D73;
+
+    --glow: #F9E6DE;
+
+    --caramel: #D7AD8B;
+
+    --ruby: #AF2E2E;
+}
+
+/* HEADER STYLE */
+
+.navbar {
+    background: #ffffff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    color: #c2185b;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c2185b;
+}
+
+/* OFFCANVAS STYLE */
+
+.offcanvas {
+    width: 260px;
+}
+
+.offcanvas-body .nav-link {
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.nav-link {
+    text-transform: uppercase;
+
+}
+
+.navbar .nav-link.active {
+    color: var(--ruby) !important;
+    /* তোমার brand color */
+}
+
+
+.book-btn {
+
+    background: var(--ruby);
+    color: #fff;
+    border: none;
+    padding: 8px 22px;
+    /* border-radius: 40px; */
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+
+}
+
+.book-btn:hover {
+
+    background: var(--ruby);
+    transform: translateY(-2px);
+
+}
+
+.offcanvas-header {
+    background-color: #C98D73;
+}
+
+
+@media(max-width:991px) {
+
+    .book-btn {
+
+        width: 100%;
+
+    }
+
+}
