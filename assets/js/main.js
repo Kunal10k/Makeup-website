@@ -2,15 +2,15 @@
 
 $('.service-slider').owlCarousel({
   loop:true,
-  margin:25,
+  margin:10,
   nav:false,
   dots:true,
   autoplay:true,
   autoplayTimeout:3000,
   responsive:{
     0:{ items:1 },
-    600:{ items:2 },
-    1000:{ items:3 }
+    600:{ items:1 },
+    1000:{ items:4 }
   }
 });
 
@@ -94,5 +94,29 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleActions: "play none none none"
     }
   });
+
+});
+
+
+
+
+document.querySelectorAll('.hero-img').forEach((container, colIndex) => {
+
+    const images = container.querySelectorAll('img');
+    let index = 0;
+
+    setTimeout(() => {
+
+        setInterval(() => {
+
+            images[index].classList.remove('active');
+
+            index = (index + 1) % images.length;
+
+            images[index].classList.add('active');
+
+        }, 2500);
+
+    }, colIndex * 800); // column delay (0ms, 800ms, 1600ms)
 
 });

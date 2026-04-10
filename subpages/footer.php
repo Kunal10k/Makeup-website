@@ -21,6 +21,10 @@
             <!-- CENTER SOCIAL -->
             <div class="footer-center">
 
+                <div class="footer_logo text-center d-flex justify-content-center">
+                    <img src="assets/img/logo-wehite.png" alt="" width="250">
+                </div>
+
                 <div class="footer-social">
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -115,6 +119,10 @@
                     <div class="mb-3">
                         <label class="form-label">Select Date</label>
                         <input type="date" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea placeholder="Your message" rows="4" required="" class="form-control"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary w-100">

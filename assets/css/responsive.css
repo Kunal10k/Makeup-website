@@ -55,4 +55,14 @@
         margin-top: -223px;
         width: 70%;
     }
+
+    .footer-grid {
+        gap: 10px;
+    }
+
+    .footer-grid {
+
+        padding: 40px 0 20px;
+
+    }
 }

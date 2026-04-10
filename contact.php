@@ -85,7 +85,13 @@
                     </div>
 
                     <div class="form-row">
-                        <input type="tel" placeholder="Your phone number" required>
+
+                        <!-- PHONE FIELD WITH FLAG -->
+                        <div class="phone-field">
+                            <span class="country-code">🇮🇳 +91</span>
+                            <input type="tel" placeholder="Your phone number" required>
+                        </div>
+
                         <input type="text" placeholder="Your location" required>
                     </div>
 

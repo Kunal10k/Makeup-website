@@ -1,58 +1,6 @@
 <?php include 'subpages/header.php' ?>
 
 
-<!-- TOP STRIP -->
-
-<!-- <div class="top-strip text-center py-2">
-    Book a FREE discovery call with me!
-    <button class="btn btn-light ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
-        Book Now
-    </button>
-</div> -->
-
-
-
-<!-- HERO BANNER -->
-
-<section class="hero-banner">
-
-    <div class="hero-row">
-
-        <div class="hero-img">
-            <img src="https://ciceroni.in/cdn/shop/articles/top-12-bridal-makeup-artists-to-look-out-for-in-ahmedabad-480982.png?v=1683890124">
-        </div>
-
-        <div class="hero-img">
-            <img src="https://rimimakeoverkolkata.in/wp-content/uploads/2025/09/BridalandpartyhairstylingbyRimiMakeoverMakeupartistandhairstylistinKolkata-1024x1024.jpeg">
-
-        </div>
-
-        <div class="hero-img">
-            <img src="https://shwetamakeupandhairartist.com/wp-content/uploads/2024/09/0R8A0337-01-scaled.jpeg">
-
-        </div>
-
-    </div>
-
-
-    <div class="hero-text shadow d-md-block d-none">
-
-        <h1>MAKEUP <br> & HAIR BY ANEESHA</h1>
-
-        <p>International bridal & celebrity makeup artist</p>
-
-    </div>
-
-</section>
-
-
-<div class="text-center d-md-none d-block py-4 headline_mobile">
-
-    <h1>MAKEUP <br> & HAIR BY ANEESHA</h1>
-
-    <p>International bridal & celebrity makeup artist</p>
-
-</div>
 
 
 <div class="rajat-marquee">
@@ -75,6 +23,67 @@
 
     </div>
 </div>
+
+
+<!-- HERO BANNER -->
+
+<section class="hero-banner">
+
+    <div class="hero-row">
+
+        <div class="hero-img">
+            <img src="assets/img/home/slider-1 (1).jpeg" class="active">
+
+            <img src="assets/img/home/3.jpg">
+
+            <img src="assets/img/home/follow-us/01- (2).jpg">
+
+
+
+        </div>
+
+        <div class="hero-img">
+            <img src="assets/img/home/slider-1 (3).jpeg" class="active">
+
+            <img src="assets/img/home/2.jpg">
+            <img src="assets/img/home/follow-us/01- (3).jpg">
+
+
+
+        </div>
+
+        <div class="hero-img">
+            <img src="assets/img/home/slider-1 (4).jpeg" class="active">
+
+            <img src="assets/img/home/follow-us/01- (3).jpeg">
+            <img src="assets/img/home/gallery/01- (4).jpeg">
+
+
+        </div>
+
+    </div>
+
+
+    <!-- <div class="hero-text shadow d-md-block d-none">
+
+        <h1>MAKEUP <br> & HAIR BY NIKKIS</h1>
+
+        <p>International bridal & celebrity makeup artist</p>
+
+    </div> -->
+
+</section>
+
+
+<div class="text-center py-4 headline_mobile">
+
+    <h1>MAKEUP <br> & HAIR BY NIKKIS</h1>
+
+    <p>International bridal & celebrity makeup artist</p>
+
+</div>
+
+
 
 
 
@@ -121,7 +130,7 @@
 
         <!-- Center main image -->
         <div class="center-img-box">
-            <img src="assets/img/home/top.jpg" alt="center">
+            <img src="assets/img/home/slider-1 (2).jpeg" alt="center">
         </div>
 
         <!-- Right floating image -->
@@ -162,13 +171,12 @@
             <!-- item -->
             <div class="service-card">
                 <div class="service-img">
-                    <img src="https://cdn.prod.website-files.com/6508b0a67600fb0dd2eaf0a6/650ec4c35050c9cddf7d175a_image00008.jpeg">
+                    <img src="assets/img/home/slider-1 (1).jpeg" alt="Wedding Makeup">
                 </div>
                 <div class="service-content">
                     <h4>Wedding Makeup</h4>
                     <p>
-                        Look flawless and confident on your special day with our customized wedding makeup services.
-                        We enhance your natural beauty using premium products to create a timeless bridal look that lasts all day.
+                        Look radiant on your special day with customized bridal makeup that enhances your natural beauty and lasts all day.
                     </p>
                     <a href="#" class="service-btn">
                         <span>Read More</span>
@@ -176,17 +184,15 @@
                 </div>
             </div>
 
-
             <!-- item -->
             <div class="service-card">
                 <div class="service-img">
-                    <img src="https://cdn.prod.website-files.com/6508b0a67600fb0dd2eaf0a6/650ec4e3becf38efda8b782a_IMG_1982_mr1669414948778.jpg">
+                    <img src="assets/img/home/2.jpg" alt="Occasion Makeup">
                 </div>
                 <div class="service-content">
                     <h4>Occasion Makeup</h4>
                     <p>
-                        Whether it’s a birthday, engagement, party, or special celebration, our occasion makeup
-                        ensures you look elegant and camera-ready with a style tailored perfectly to your personality.
+                        Elegant makeup tailored for birthdays, engagements, and celebrations to keep you camera-ready and confident.
                     </p>
                     <a href="#" class="service-btn">
                         <span>Read More</span>
@@ -194,17 +200,15 @@
                 </div>
             </div>
 
-
             <!-- item -->
             <div class="service-card">
                 <div class="service-img">
-                    <img src="https://cdn.prod.website-files.com/6508b0a67600fb0dd2eaf0a6/650ec4e8ad757160aa8084c1_4E7A2915.jpg">
+                    <img src="assets/img/home/bride-is-getting-ready-her-wedding_981168-15205.avif" alt="Makeup Lessons">
                 </div>
                 <div class="service-content">
                     <h4>Makeup Lessons</h4>
                     <p>
-                        Learn professional makeup techniques step-by-step through personalized lessons designed for
-                        beginners and advanced learners who want to improve their skills with expert guidance.
+                        Learn step-by-step professional techniques through personalized sessions designed for beginners and advanced learners.
                     </p>
                     <a href="#" class="service-btn">
                         <span>Read More</span>
@@ -212,17 +216,15 @@
                 </div>
             </div>
 
-
             <!-- item -->
             <div class="service-card">
                 <div class="service-img">
-                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+                    <img src="assets/img/home/follow-us/01- (2).jpeg" alt="Party Makeup">
                 </div>
                 <div class="service-content">
                     <h4>Party Makeup</h4>
                     <p>
-                        Get a glamorous party-ready transformation with long-lasting makeup designed to highlight
-                        your features and give you a confident, radiant look for any evening event or celebration.
+                        Get a glamorous, long-lasting party look that highlights your features and boosts your confidence for any event.
                     </p>
                     <a href="#" class="service-btn">
                         <span>Read More</span>
@@ -264,49 +266,45 @@
     </div>
 
 
-    <!-- Image Grid -->
-    <div class="insta-grid mt-5">
+    <div class="container-fluid">
+        <!-- Image Grid -->
+        <div class="insta-grid mt-5">
 
-        <a href="assets/img/home/i1.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i1.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i2.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i2.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i3.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i3.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i4.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i4.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i5.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i5.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i6.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i6.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i7.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i7.jpg" alt="">
-        </a>
-
-        <a href="assets/img/home/i8.jpg" data-fancybox="gallery">
-            <img src="assets/img/home/i8.jpg" alt="">
-        </a>
-
-    </div>
+            <a href="assets/img/home/follow-us/01- (1).jpg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (1).jpg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (2).jpg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (2).jpg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (3).jpg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (3).jpg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (4).jpg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (4).jpg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (5).jpg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (5).jpg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (1).jpeg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (1).jpeg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (2).jpeg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (2).jpeg" alt="">
+            </a>
+            <a href="assets/img/home/follow-us/01- (3).jpeg" data-fancybox="gallery">
+                <img src="assets/img/home/follow-us/01- (3).jpeg" alt="">
+            </a>
 
 
-    <!-- Load More -->
-    <div class="pt-5 m-auto d-flex justify-content-center">
-        <a href="#" class="service-btn">
-            <span>Load More <i class="fa-solid fa-arrow-right"></i></span>
-        </a>
+        </div>
+
+
+        <!-- Load More -->
+        <div class="pt-5 m-auto d-flex justify-content-center">
+            <a href="#" class="service-btn">
+                <span>Load More <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
+        </div>
     </div>
 
 </section>
@@ -326,39 +324,43 @@
 
         </div>
 
-
         <div class="gallery-grid mt-4">
 
             <div class="gallery-item tall">
-                <img src="assets/img/home/g1.jpg">
+                <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (1).jpeg">
+                </a>
             </div>
 
             <div class="gallery-item">
-                <img src="assets/img/home/g2.jpg">
-
+                <a href="assets/img/home/gallery/01- (2).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (2).jpeg">
+                </a>
             </div>
 
             <div class="gallery-item tall">
-                <img src="assets/img/home/g3.jpg">
-
+                <a href="assets/img/home/gallery/01- (3).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (3).jpeg">
+                </a>
             </div>
 
             <div class="gallery-item">
-                <img src="assets/img/home/g4.jpg">
-
+                <a href="assets/img/home/gallery/01- (4).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (4).jpeg">
+                </a>
             </div>
 
             <div class="gallery-item">
-                <img src="assets/img/home/g5.jpg">
-
+                <a href="assets/img/home/gallery/01- (5).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (5).jpeg">
+                </a>
             </div>
 
             <div class="gallery-item">
-                <img src="assets/img/home/g6.jpg">
-
+                <a href="assets/img/home/gallery/01- (6).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/gallery/01- (6).jpeg">
+                </a>
             </div>
-
-
 
         </div>
 
@@ -462,30 +464,55 @@
     <div class="marquee-track">
 
         <!-- Image group 1 -->
-        <img src="assets/img/home/g1.jpg">
-        <img src="assets/img/home/g2.jpg">
-        <img src="assets/img/home/g3.jpg">
-        <img src="assets/img/home/g4.jpg">
-        <img src="assets/img/home/g5.jpg">
-        <img src="assets/img/home/g6.jpg">
-        <img src="assets/img/home/g1.jpg">
-        <img src="assets/img/home/g2.jpg">
-        <img src="assets/img/home/g3.jpg">
-        <img src="assets/img/home/g4.jpg">
-        <img src="assets/img/home/g5.jpg">
-        <img src="assets/img/home/g6.jpg">
-        <img src="assets/img/home/g1.jpg">
-        <img src="assets/img/home/g2.jpg">
-        <img src="assets/img/home/g3.jpg">
-        <img src="assets/img/home/g4.jpg">
-        <img src="assets/img/home/g5.jpg">
-        <img src="assets/img/home/g6.jpg">
+        <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (1).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (2).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (2).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (3).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (3).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (4).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (4).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (5).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (5).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (6).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (6).jpeg">
+        </a>
 
 
+        <!-- Duplicate loop images -->
+        <a href="assets/img/home/gallery/01- (1).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (1).jpeg">
+        </a>
 
+        <a href="assets/img/home/gallery/01- (2).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (2).jpeg">
+        </a>
 
+        <a href="assets/img/home/gallery/01- (3).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (3).jpeg">
+        </a>
 
+        <a href="assets/img/home/gallery/01- (4).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (4).jpeg">
+        </a>
 
+        <a href="assets/img/home/gallery/01- (5).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (5).jpeg">
+        </a>
+
+        <a href="assets/img/home/gallery/01- (6).jpeg" data-fancybox="gallery">
+            <img src="assets/img/home/gallery/01- (6).jpeg">
+        </a>
 
     </div>
 </section>
