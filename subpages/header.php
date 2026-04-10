@@ -85,12 +85,15 @@
 
                 <li class="nav-item d-md-none d-block">
 
+                    <button class="book-btn ms-2"
+                        data-bs-toggle="modal"
+                        data-bs-target="#bookingModal">
 
-                    <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
                         <i class="fa-solid fa-calendar-check"></i>
-
                         Book Now
+
                     </button>
+
                 </li>
 
 
@@ -112,29 +115,40 @@
 
                     <ul class="navbar-nav gap-3 align-items-lg-center">
 
+                        <!-- HOME DISABLED -->
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>"
-                                href="index.php">Home</a>
+                                href="index.php">
+                                Home
+                            </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>"
-                                href="about.php">About</a>
+                                href="javascript:void(0)">
+                                About
+                            </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service.php') echo 'active'; ?>"
-                                href="service.php">Services</a>
+                                href="javascript:void(0)">
+                                Services
+                            </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') echo 'active'; ?>"
-                                href="portfolio.php">Portfolios</a>
+                                href="javascript:void(0)">
+                                Portfolios
+                            </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>"
-                                href="contact.php">Contact</a>
+                                href="javascript:void(0)">
+                                Contact
+                            </a>
                         </li>
 
 
@@ -142,12 +156,15 @@
 
                         <li class="nav-item">
 
+                            <button class="book-btn ms-2"
+                                data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">
 
-                            <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
                                 <i class="fa-solid fa-calendar-check"></i>
-
                                 Book Now
+
                             </button>
+
                         </li>
 
                     </ul>
@@ -180,33 +197,41 @@
 
                 <ul class="navbar-nav">
 
+                    <!-- HOME DISABLED -->
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>"
-                            href="index.php">Home</a>
+                            href="index.php">
+                            Home
+                        </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>"
-                            href="about.php">About</a>
+                            href="javascript:void(0)">
+                            About
+                        </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service.php') echo 'active'; ?>"
-                            href="service.php">Services</a>
+                            href="javascript:void(0)">
+                            Services
+                        </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') echo 'active'; ?>"
-                            href="portfolio.php">Portfolios</a>
+                            href="javascript:void(0)">
+                            Portfolios
+                        </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>"
-                            href="contact.php">Contact</a>
+                            href="javascript:void(0)">
+                            Contact
+                        </a>
                     </li>
-
-
-
 
                 </ul>
 
