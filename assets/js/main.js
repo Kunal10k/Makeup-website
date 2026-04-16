@@ -120,3 +120,32 @@ document.querySelectorAll('.hero-img').forEach((container, colIndex) => {
     }, colIndex * 800); // column delay (0ms, 800ms, 1600ms)
 
 });
+
+
+
+
+$(document).ready(function(){
+
+    $('.e1').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        smartSpeed: 600,
+
+        responsive:{
+            0:{
+                items:1
+            },
+            480:{
+                items:2
+            },
+            768:{
+                items:3
+            }
+        }
+    });
+
+});

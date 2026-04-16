@@ -27,7 +27,7 @@
 
 <!-- HERO BANNER -->
 
-<section class="hero-banner">
+<!-- <section class="hero-banner">
 
     <div class="hero-row">
 
@@ -64,22 +64,90 @@
     </div>
 
 
-    <!-- <div class="hero-text shadow d-md-block d-none">
+   
+</section> -->
 
-        <h1>MAKEUP <br> & HAIR BY NIKKIS</h1>
+<div class="slider">
+    <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-        <p>International bridal & celebrity makeup artist</p>
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+        </div>
 
-    </div> -->
+        <!-- Slides -->
+        <div class="carousel-inner">
 
-</section>
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+
+                <img src="assets/img/home/c2.png" class="d-block w-100" alt="">
+                <div class="carousel-overlay"></div>
+
+                <div class="carousel-caption">
+                    <h1>timeless And flawless Look For your Special Day</h1>
+
+                    <p class="para">
+                        use my passion and skills to bring out your features in a way
+                        that feels natural and effortles — so you look confident and
+                        radiant for your special day.
+                    </p>
+
+
+                    <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                        <i class="fa-solid fa-calendar-check"></i>
+                        MAKE AN APPOINTMENT
+
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="assets/img/home/c1.jpg" class="d-block w-100" alt="">
+
+                <div class="carousel-overlay"></div>
+
+                <div class="carousel-caption">
+                    <h1>beauty & Makeupexpert <br>Studio</h1>
+
+                    <p class="para">
+                        use my passion and skills to bring out your features in a way
+                        that feels natural and effortles — so you look confident and
+                        radiant for your special day.
+                    </p>
+
+                    <button class="book-btn ms-2" data-bs-toggle="modal" data-bs-target="#bookingModal">
+
+                        <i class="fa-solid fa-calendar-check"></i>
+                        MAKE AN APPOINTMENT
+
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+</div>
 
 
 <div class="text-center py-4 headline_mobile">
 
     <h1>MAKEUP <br> & HAIR BY NIKKIS</h1>
 
-    <p>International bridal & celebrity makeup artist</p>
+    <p class="para"> Bridal & celebrity makeup artist</p>
 
 </div>
 
@@ -122,14 +190,14 @@
 
 
 
-<section class="about-mission-section section-gap">
+<section class="about-mission-section section-gap pt-0">
     <div class="mission-wrapper">
 
         <!-- Left floating image -->
         <img src="assets/img/home/left.jpg" class="mission-img left-img" alt="left">
 
         <!-- Center main image -->
-        <div class="center-img-box">
+        <div class="center-img-box im1">
             <img src="assets/img/home/slider-1 (2).jpeg" alt="center">
         </div>
 
@@ -139,18 +207,14 @@
     </div>
 
     <div class="mission-content">
-        <h3 class="headline js-splittext-lines">The mission</h3>
+        <h3 class="headline js-splittext-lines">About </h3>
         <p class="para js-splittext-lines">
-            My approach to makeup has always come from how you look, feel and express
-            yourself. I create timeless, natural looks that enhance your features
-            whilst still feeling comfortable in your own skin.
+            "I use my passion and skills to bring out your features in a way that feels natural and effortles — so you look confident and radiant for your special day."
         </p>
 
         <p class="para">
 
-            I use my experience and intuition to bring out your features in a way that
-            feels natural and effortless, ensuring you feel confident and radiant for
-            your special day.
+            Hi, I'm Nikki! I'm a makeup artist and hair stylist who genuinely loves what I do. For me, this isn't just a job — it's getting to be part of some of the most meaningful moments in people's lives. I take the time to understand your vision, your features, and how you want to feel, and I work my heart out to make that a reality. Whether you want something soft and glowing or bold and dramatic, I've got you.
         </p>
     </div>
 </section>
@@ -162,8 +226,8 @@
     <div class="container-fluid">
 
         <div class="section-title text-center mb-5">
-            <h2 class="headline js-splittext-lines">Our Services</h2>
-            <p class="para">Explore our premium beauty services</p>
+            <h2 class="headline js-splittext-lines">Discover Your <span class="ani">Perfect</span> Look </h2>
+            <p class="para">Makeup & Hair for Every Occasion</p>
         </div>
 
         <div class="owl-carousel service-slider">
@@ -268,8 +332,39 @@
 
     <div class="container-fluid">
         <!-- Image Grid -->
-        <div class="insta-grid mt-5">
+        <div class="d-md-block d-none">
+            <div class="insta-grid mt-5 ">
 
+                <a href="assets/img/home/follow-us/01- (1).jpg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (1).jpg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (2).jpg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (2).jpg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (3).jpg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (3).jpg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (4).jpg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (4).jpg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (5).jpg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (5).jpg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (1).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (1).jpeg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (2).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (2).jpeg" alt="">
+                </a>
+                <a href="assets/img/home/follow-us/01- (3).jpeg" data-fancybox="gallery">
+                    <img src="assets/img/home/follow-us/01- (3).jpeg" alt="">
+                </a>
+
+
+            </div>
+        </div>
+
+        <div class="e1 d-block  owl-carousel d-md-none mt-3">
             <a href="assets/img/home/follow-us/01- (1).jpg" data-fancybox="gallery">
                 <img src="assets/img/home/follow-us/01- (1).jpg" alt="">
             </a>
@@ -295,12 +390,13 @@
                 <img src="assets/img/home/follow-us/01- (3).jpeg" alt="">
             </a>
 
-
         </div>
 
 
+
+
         <!-- Load More -->
-        <div class="pt-5 m-auto d-flex justify-content-center">
+        <div class="pt-5 m-auto d-flex justify-content-center d-md-block d-none">
             <a href="#" class="service-btn">
                 <span>Load More <i class="fa-solid fa-arrow-right"></i></span>
             </a>
@@ -319,7 +415,7 @@
 
             <h2 class="headline w-50 m-auto">
                 Bringing professionalism, enthusiasm
-                & integrity to every brides big day.
+                & integrity to every Bride's Day
             </h2>
 
         </div>
@@ -397,7 +493,7 @@
         </a>
 
         <div class="cta-footer-text">
-            Trusted by brides, clients and content creators across the UK
+            Trusted by brides, clients and content creators across the Kolkata
         </div>
 
     </div>
@@ -412,7 +508,7 @@
 
             <!-- Left Content -->
             <div class="testimonial-left">
-                <h2 class="headline">What my brides are saying</h2>
+                <h2 class="headline">What my brides are <br> saying</h2>
                 <!-- <a href="#" class="read-btn">Read more</a> -->
 
                 <a href="#" class="service-btn mt-3">

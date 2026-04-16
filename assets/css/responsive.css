@@ -7,6 +7,32 @@
         width: 100% !important;
     }
 
+    .rajat-marquee-item {
+        font-size: 20px;
+
+    }
+
+    .para {
+        font-size: 17px;
+    }
+
+    .service-content p {
+        height: auto;
+    }
+
+    .insta-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .follow-btn {
+        margin-top: 25px;
+    }
+
     .gallery-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -64,5 +90,34 @@
 
         padding: 40px 0 20px;
 
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-caption p {
+        font-size: 15px;
+
+    }
+
+    .carousel-caption .book-btn {
+        padding: 8px 18px;
+        font-size: 15px;
+
+    }
+
+    .carousel-caption .book-btn {
+        width: auto;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .e1 a img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
     }
 }

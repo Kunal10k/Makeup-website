@@ -45,15 +45,15 @@
 
                 <p>
                     <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:jmbridalmakeup@yahoo.com">
-                        jmbridalmakeup@yahoo.com
+                    <a href="mailto:nikkisartistry.official@gmail.com">
+                        nikkisartistry.official@gmail.com
                     </a>
                 </p>
 
                 <p>
                     <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+447911123456">
-                        +44 7911 123456
+                    <a href="tel:9051663407">
+                        +91 9051663407
                     </a>
                 </p>
 
@@ -75,13 +75,15 @@
             <a href="#">Cookie Policy</a>
         </div>
 
+        <div class="footer-bottom">
+            Designed by <span>Esspesoft</span>
+        </div>
+
     </div>
 
 
     <!-- BOTTOM STRIP -->
-    <div class="footer-bottom">
-        Designed by <span>Esspesoft</span>
-    </div>
+
 
 </footer>
 

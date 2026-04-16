@@ -2,6 +2,31 @@
    GLOBAL RESET
 ================================= */
 
+@font-face {
+    font-family: Ridley;
+    src: url('//static.showit.co/file/f5S7MkbXTPWU47Rb-2c61A/72210/ridleygroteskregular_normal_normal.woff');
+}
+
+@font-face {
+    font-family: royals thin;
+    src: url('//static.showit.co/file/Ya1gB7vBiwMXeC9oG9r5pg/72210/royalsserif-thin.woff');
+}
+
+@font-face {
+    font-family: Royals thin italic;
+    src: url('//static.showit.co/file/GmZG6mb1G3wpPWpDK_F-Eg/72210/royalsserif-thinitalic.woff');
+}
+
+@font-face {
+    font-family: Neue helv light;
+    src: url('//static.showit.co/file/G8IQlj-iQDilG51c1R-tXg/72210/neuehelvetica45light_normal_normal.woff');
+}
+
+@font-face {
+    font-family: Prox Ex Wide;
+    src: url('//static.showit.co/file/fbG_SnLHzjC8NyG1_ahq4w/72210/proximanovaextrawide-regular-webfont.woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +38,8 @@ html {
 }
 
 body {
-    font-family: var(--font-3);
+    font-family: var(--font-2);
+
     font-size: 16px;
     color: #333;
     background-color: #ffffff;
@@ -32,7 +58,7 @@ body {
 .headline {
     font-size: 45px;
     font-family: var(--font-3);
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
 }
 
@@ -44,8 +70,10 @@ body {
 
 :root {
     --font-1: "Playfair", serif;
-    --font-2: "Futura LT W01 Light Oblique";
-    --font-3: "Marcellus", serif;
+    /* --font-2: "Futura LT W01 Light Oblique"; */
+    --font-2: "Neue helv light" !important;
+    /* --font-3: "Marcellus", serif; */
+    --font-3: "royals thin";
 
     --headling: 45px;
     --subheding: 25px;
@@ -156,28 +184,44 @@ ul {
     width: 33.33%;
 }
 
+/* Image Column */
 .hero-img {
     position: relative;
     width: 33.33%;
     height: 600px;
     overflow: hidden;
+    background: #000;
 }
 
+/* Image Style */
 .hero-img img {
     position: absolute;
-    /* important */
     top: 0;
     left: 0;
     width: 100%;
     height: 600px;
     object-fit: cover;
+    display: block;
+
+    transform: scale(1.3);
+
     opacity: 0;
-    transition: opacity 4s ease-in-out;
+    z-index: 1;
+
+    /* Slow smooth effect */
+    transition: transform 8s ease-in-out, opacity 2s ease-in-out;
 }
 
+/* Active Image */
 .hero-img img.active {
-    opacity: 1 !important;
+    opacity: 1;
+    transform: scale(1);
     z-index: 2;
+}
+
+/* Performance */
+.hero-img img {
+    will-change: transform, opacity;
 }
 
 
@@ -219,6 +263,7 @@ ul {
 .headline_mobile,
 h1 {
     color: var(--ruby);
+    font-family: var(--font-3);
 }
 
 
@@ -525,7 +570,7 @@ h1 {
 }
 
 .service-content p {
-    font-size: 22px !important;
+    /* font-size: 22px !important; */
     font-family: var(--font-2);
 }
 
@@ -555,14 +600,14 @@ h1 {
 }
 
 .service-content h4 {
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     margin-bottom: 10px;
 }
 
 .service-content p {
-    /* font-size: 14px; */
+    font-size: 18px;
     color: #777;
-    height: 200px;
+    height: 123px;
 }
 
 .service-btn {
@@ -661,9 +706,17 @@ h1 {
     text-transform: capitalize;
 }
 
-.cta-overlay-box h2 span {
-    font-weight: 700;
-    color: #fff;
+.carousel-caption .book-btn {
+    padding: 12px 30px;
+    font-size: 18px;
+
+
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
 
 }
 
@@ -787,7 +840,7 @@ h1 {
 .about-mission-section {
     text-align: center;
     /* padding: 100px 20px; */
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
     position: relative;
     overflow: hidden;
 }
@@ -805,6 +858,8 @@ h1 {
     position: relative;
     z-index: 2;
 }
+
+
 
 /* Side Images */
 
@@ -972,11 +1027,17 @@ h1 {
     width: 100%;
     height: 500px;
     object-fit: cover;
-    transition: 0.4s;
+    filter: grayscale(0%);
+
+    transition: all 0.6s ease;
 }
 
-.insta-grid img:hover {
-    transform: scale(1.04);
+
+/* Hover effect */
+.insta-grid a:hover img {
+    filter: grayscale(100%);
+
+
 }
 
 
@@ -1716,12 +1777,20 @@ h1 {
     animation: marqueeMove 20s linear infinite;
 }
 
-.marquee-track img {
+.marquee-track a img {
     width: 250px;
     height: 260px;
     object-fit: cover;
-    /* margin-right: 20px; */
-    /* border-radius: 10px; */
+
+
+    filter: grayscale(0%);
+    transition: all 0.6s ease;
+}
+
+.marquee-track a:hover img {
+    filter: grayscale(100%);
+
+
 }
 
 /* Infinite smooth animation */
@@ -1805,4 +1874,127 @@ h1 {
 
 .js-splittext-lines .line {
     display: block;
+}
+
+
+
+
+/* slider  section */
+
+/* Slider Height */
+.carousel-item {
+    height: 100vh;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image */
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    /* Animation add */
+    animation: zoomInOut 20s ease-in-out infinite;
+}
+
+/* Zoom Animation */
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Overlay */
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.459);
+}
+
+/* Content */
+.carousel-caption {
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: left;
+    max-width: 600px;
+}
+
+/* Heading */
+.carousel-caption h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    font-family: var(--font-3);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+/* Button */
+.btn-custom {
+    background: #d4af37;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 28px;
+    }
+}
+
+
+
+.center-img-box.im1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.center-img-box.im1 img {
+    width: 100%;
+    display: block;
+    filter: grayscale(100%);
+    transition: 0.6s ease;
+}
+
+/* overlay */
+.center-img-box.im1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background: transparent;
+    backdrop-filter: grayscale(0%);
+    transition: height 0.6s ease;
+}
+
+/* hover effect */
+.center-img-box.im1:hover img {
+    filter: grayscale(0%);
+}
+
+.center-img-box.im1:hover::after {
+    height: 100%;
 }
