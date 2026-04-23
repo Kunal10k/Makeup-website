@@ -49,11 +49,12 @@
 
 .footer-links a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 2px;
     color: #fff;
     position: relative;
     transition: 0.3s ease;
+    font-family: "Neue helv light" !important;
 }
 
 .footer-links a::after {
@@ -76,6 +77,8 @@
     font-size: 16px;
     letter-spacing: 1px;
     color: #fff;
+    font-family: "Neue helv light" !important;
+
 }
 
 .footer-email i {
@@ -87,6 +90,9 @@
     text-decoration: none;
     color: #fff;
     transition: 0.3s ease;
+
+    font-family: "Neue helv light" !important;
+
 }
 
 .footer-email a:hover {
@@ -135,6 +141,8 @@
     letter-spacing: 2px;
     color: #fff;
     line-height: 1.8;
+    font-family: "Neue helv light" !important;
+
 }
 
 
@@ -161,7 +169,7 @@
 
 .footer-policy {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     margin-top: 20px;
     padding-top: 25px;

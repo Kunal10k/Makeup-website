@@ -137,7 +137,7 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1
+                items:2
             },
             480:{
                 items:2
@@ -149,3 +149,41 @@ $(document).ready(function(){
     });
 
 });
+
+
+
+
+
+$('.photo_gallery').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: true,
+
+    responsive: {
+        0: {
+            items: 1   // 🔥 Mobile = 2 images
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 4
+        }
+    }
+});
+
+
+
+
+
+
+const images = document.querySelectorAll(".portfolio_img_Change img");
+
+let index = 0;
+
+setInterval(() => {
+    images[index].classList.remove("active");
+    index = (index + 1) % images.length;
+    images[index].classList.add("active");
+}, 2000); // change every 2 seconds

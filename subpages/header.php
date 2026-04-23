@@ -23,6 +23,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="icon" type="image/png" href="assets/img/favicon.jpg">
 
     <!-- Fancybox CSS -->
@@ -55,18 +57,18 @@
     </a>
 
 
-    <div class="mobile-bottom-bar">
-        <!-- WhatsApp -->
+    <!-- <div class="mobile-bottom-bar">
+  
         <a href="https://wa.me/919999999999" class="float-icon whatsapp" target="_blank">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
 
-        <!-- Contact -->
+     
         <a href="contact.html" class="float-icon contact">
             <i class="fa-solid fa-envelope"></i>
         </a>
 
-    </div>
+    </div> -->
 
 
     <header>
@@ -117,36 +119,36 @@
 
                         <!-- HOME DISABLED -->
                         <li class="nav-item">
-                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>"
-                                href="index.php">
+                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index') echo 'active'; ?>"
+                                href="index">
                                 Home
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>"
-                                href="javascript:void(0)">
+                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about') echo 'active'; ?>"
+                                href="about">
                                 About
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service.php') echo 'active'; ?>"
-                                href="javascript:void(0)">
+                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service') echo 'active'; ?>"
+                                href="service">
                                 Services
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') echo 'active'; ?>"
-                                href="javascript:void(0)">
+                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio') echo 'active'; ?>"
+                                href="portfolio">
                                 Portfolios
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>"
-                                href="javascript:void(0)">
+                            <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact') echo 'active'; ?>"
+                                href="contact">
                                 Contact
                             </a>
                         </li>
@@ -199,38 +201,54 @@
 
                     <!-- HOME DISABLED -->
                     <li class="nav-item">
-                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index.php') echo 'active'; ?>"
-                            href="index.php">
+                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'index') echo 'active'; ?>"
+                            href="index">
                             Home
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about.php') echo 'active'; ?>"
-                            href="javascript:void(0)">
+                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'about') echo 'active'; ?>"
+                            href="about">
                             About
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service.php') echo 'active'; ?>"
-                            href="javascript:void(0)">
+                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'service') echo 'active'; ?>"
+                            href="service">
                             Services
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') echo 'active'; ?>"
-                            href="javascript:void(0)">
+                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'portfolio') echo 'active'; ?>"
+                            href="portfolio">
                             Portfolios
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php') echo 'active'; ?>"
-                            href="javascript:void(0)">
+                        <a class="nav-link <?php if (basename($_SERVER['PHP_SELF']) == 'contact') echo 'active'; ?>"
+                            href="contact">
                             Contact
                         </a>
+                    </li>
+
+
+                    <!-- BOOK NOW BUTTON -->
+
+                    <li class="nav-item">
+
+                        <button class="book-btn ms-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#bookingModal">
+
+                            <i class="fa-solid fa-calendar-check"></i>
+                            Book Now
+
+                        </button>
+
                     </li>
 
                 </ul>
@@ -240,3 +258,7 @@
         </div>
 
     </header>
+
+    <div class="header_gap">
+
+    </div>

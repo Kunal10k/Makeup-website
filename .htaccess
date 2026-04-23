@@ -1,0 +1,37 @@
+RewriteEngine On
+
+# Hide .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# Redirect .php URL to extensionless version
+RewriteCond %{THE_REQUEST} \s([^.]+)\.php [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Disable directory browsing
+Options -Indexes
+
+# Protect .htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Block access to config files
+<FilesMatch "(config|database|db|connection)\.php">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# Prevent access to hidden files (.git, .env etc.)
+<FilesMatch "^\.">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# Disable access to sensitive file types
+<FilesMatch "\.(ini|log|sh|sql|bak)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>

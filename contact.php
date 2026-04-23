@@ -2,32 +2,20 @@
 
 <div class="inner_banner" style="background-image: url(./assets/img/contact/contact.webp);">
     <div class="container">
+
+        <h6 class="sub_headline">
+            WORK WITH ME: SARAH SHUTTLE
+        </h6>
         <h1 class="inner_headline">
-            Make a booking
+            Luxury brand design services <br>
+            for ambitious founders... <br>
+
+            ...ready to elevate <strong>everything</strong>
         </h1>
     </div>
 </div>
 
-<div class="rajat-marquee">
-    <div class="rajat-marquee-track">
 
-        <div class="rajat-marquee-item">
-            Now Taking Bridal Makeup Bookings for 2026 & 2027
-            <img src="icon.png" alt="">
-        </div>
-
-        <div class="rajat-marquee-item">
-            Now Taking Bridal Makeup Bookings for 2026 & 2027
-            <img src="icon.png" alt="">
-        </div>
-
-        <div class="rajat-marquee-item">
-            Now Taking Bridal Makeup Bookings for 2026 & 2027
-            <img src="icon.png" alt="">
-        </div>
-
-    </div>
-</div>
 
 
 <section class="enquiry-section">

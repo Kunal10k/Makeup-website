@@ -79,6 +79,8 @@
 
 }
 
+
+
 .book-btn:hover {
 
     background: var(--ruby);
@@ -86,9 +88,9 @@
 
 }
 
-.offcanvas-header {
+/* .offcanvas-header {
     background-color: #C98D73;
-}
+} */
 
 
 @media(max-width:991px) {
@@ -99,4 +101,81 @@
 
     }
 
+}
+
+.book-btn2 {
+
+    border: 1px solid #fff !important;
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s ease;
+    background-color: transparent;
+
+}
+
+
+
+.offcanvas-header .btn-close {
+    /* default style reset */
+    opacity: 1;
+    background-color: transparent;
+
+    /* make icon black */
+    filter: brightness(0);
+
+    /* optional spacing (তোমার আগেরটা রাখা হলো) */
+    padding: calc(var(--bs-offcanvas-padding-y) * .5) calc(var(--bs-offcanvas-padding-x) * .5);
+    margin: calc(-.5 * var(--bs-offcanvas-padding-y)) calc(-.5 * var(--bs-offcanvas-padding-x)) calc(-.5 * var(--bs-offcanvas-padding-y)) auto;
+
+    /* smooth effect */
+    transition: 0.3s ease;
+}
+
+/* hover effect */
+.offcanvas-header .btn-close:hover {
+    transform: rotate(90deg);
+    opacity: 0.7;
+}
+
+
+.navbar .nav-link {
+    position: relative;
+    /* color: var(--ruby); */
+    transition: color 0.3s ease;
+}
+
+/* underline create */
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: var(--ruby);
+    transition: width 0.3s ease;
+}
+
+/* hover effect */
+.navbar .nav-link:hover::after {
+    width: 100%;
+}
+
+/* optional hover color */
+.navbar .nav-link:hover {
+    color: var(--ruby) !important;
+}
+
+.sticky-top {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1020;
 }
