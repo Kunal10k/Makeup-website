@@ -91,12 +91,54 @@
         padding: 40px 0 20px;
 
     }
+
+    .portfolio_img_Change {
+        margin-top: 25px;
+    }
+
+    .cta_portfoli h5 {
+        line-height: 40px;
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .cta_portfoli {
+        padding: 60px 0;
+    }
+
+    .my_grid_portfoli {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
 }
 
 @media (max-width: 767px) {
     .carousel-caption p {
         font-size: 15px;
 
+    }
+
+    .brand-shift {
+        padding: 40px 0;
+
+    }
+
+    .inner_headline {
+        font-size: 28px;
+    }
+
+    .abt_sec .headline {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+
+    .service-some-details {
+        padding: 40px 0;
+    }
+
+    .every_Sec img {
+        margin-top: 25px;
     }
 
     .carousel-item img {

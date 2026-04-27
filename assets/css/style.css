@@ -69,7 +69,8 @@ body {
 
 .headline {
     font-size: 45px;
-    font-family: "Instrument Serif", serif;
+    /* font-family: "Instrument Serif", serif; */
+    font-family: var(--font-3);
     font-weight: 500;
     text-transform: capitalize;
     position: relative;
@@ -86,8 +87,10 @@ body {
     --font-1: "Playfair", serif;
     /* --font-2: "Futura LT W01 Light Oblique"; */
     --font-2: "Neue helv light" !important;
-    /* --font-3: "Marcellus", serif; */
-    --font-3: "royals thin";
+    --font-3: 'Italiana', serif;
+
+
+    /* --font-3: "royals thin"; */
 
     --instrument-font: "Instrument Serif", serif;
 
@@ -1976,7 +1979,9 @@ h1 {
     font-size: 48px;
     font-weight: 400;
     color: #fff;
-    font-family: "Instrument Serif", serif;
+    /* font-family: "Instrument Serif", serif; */
+
+    font-family: var(--font-3);
     text-transform: capitalize;
     letter-spacing: 1px;
 }
@@ -2286,6 +2291,15 @@ h1 {
 
 /* brand shift  */
 
+.brand-list li {
+    display: flex;
+    gap: 15px;
+}
+
+.project-btn {
+    margin-bottom: 27px;
+}
+
 .brand-shift {
     background: var(--blush);
     padding: 120px 20px;
@@ -2553,46 +2567,51 @@ h1 {
 
 /* service-some-details  section  */
 
+/* wrapper controls scroll height */
 
-.brand-section {
-    background: #f5f2ef;
-    color: #000000;
+.brand-wrapper {
+    height: 300vh;
+    /* 3 sections = 300vh */
+}
 
-    height: 100vh;
+
+/* sticky sections */
+
+.sticky_hub,
+.s2,
+.s3 {
     position: sticky;
     top: 0;
+    height: 100vh;
 }
 
-.s_box {
+.my_items img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
 
-.small-heading {
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: 600;
+/* background layers */
+
+.s1 {
+    background: #f5f1ec;
+    z-index: 1;
 }
 
-.brand-list {
-    list-style: none;
-    padding: 0;
+.s2 {
+    background: #ebe4db;
+    z-index: 2;
 }
 
-.brand-list li {
-    margin-bottom: 12px;
+.s3 {
+    background: #e2dbd1;
+    z-index: 3;
 }
 
-.brand-list li::before {
-    content: "+ ";
-}
 
-.details-title {
-    font-size: 32px;
-    font-weight: 400;
-}
-
-/* ACCORDION STYLE */
+/* accordion style */
 
 .custom-accordion .accordion-item {
     border: none;
@@ -2611,14 +2630,14 @@ h1 {
 .custom-accordion .accordion-button::after {
     content: "+";
     background-image: none;
-    transform: none;
 }
 
 .custom-accordion .accordion-button:not(.collapsed)::after {
     content: "−";
 }
 
-/* BUTTON */
+
+/* button */
 
 .project-btn {
     display: inline-block;
@@ -2630,19 +2649,6 @@ h1 {
     transition: 0.3s;
 }
 
-
-
-.s1 {
-    background: #f5f1ec;
-    z-index: 1;
-}
-
-.s2 {
-    background: #ebe4db;
-    z-index: 2;
-}
-
-.s3 {
-    background: #e2dbd1;
-    z-index: 3;
+.project-btn:hover {
+    background: black;
 }

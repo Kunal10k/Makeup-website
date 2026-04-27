@@ -253,248 +253,248 @@
 
 
 
+<section class="brand-wrapper">
 
+    <div class="brand-section section-gap sticky_hub s1">
+        <div class="container">
+            <div class="row ">
 
-<section class="brand-section section-gap sticky_hub s1">
-    <div class="container">
-        <div class="row ">
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6 mb-4">
+                    <h1 class="headline mb-4">
+                        Brand Strategy & Identity
+                    </h1>
 
-            <!-- LEFT CONTENT -->
-            <div class="col-lg-6 mb-4">
-                <h1 class="headline mb-4">
-                    Brand Strategy & Identity
-                </h1>
+                    <p class="para">
+                        Your brand identity shapes the way your audience perceives your
+                        business. When positioned and designed intentionally, it becomes the
+                        foundation for premium pricing, stronger demand, and long-term growth.
+                    </p>
 
-                <p class="para">
-                    Your brand identity shapes the way your audience perceives your
-                    business. When positioned and designed intentionally, it becomes the
-                    foundation for premium pricing, stronger demand, and long-term growth.
-                </p>
-
-                <div class="mt-5">
-                    <p class="small-heading">THIS IS FOR YOU IF:</p>
-
-                    <ul class="brand-list">
-                        <li>You feel that your business has outgrown your visual identity</li>
-                        <li>Your work has elevated but your visuals haven’t caught up</li>
-                        <li>You’re confident in your offers, but not in how you show up online</li>
-                        <li>You need a brand that supports premium prices</li>
-                        <li>You want to be recalled, referred and recognized in your industry</li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <!-- RIGHT ACCORDION -->
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-
-                <div class="s_box">
-                    <h3 class="details-title mb-4">The <em>Details</em></h3>
-
-                    <div class="accordion custom-accordion" id="accordionExample">
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne">
-                                    THE TRANSFORMATION
-                                </button>
-                            </h2>
-                            <div id="collapseOne"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Transformation content goes here.
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo">
-                                    INVESTMENT & TIMELINE
-                                </button>
-                            </h2>
-                            <div id="collapseTwo"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Timeline content goes here.
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree">
-                                    THE INVESTMENT COVERS:
-                                </button>
-                            </h2>
-                            <div id="collapseThree"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    Investment coverage content goes here.
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <!-- BUTTON -->
                     <div class="mt-5">
-                        <a href="#" class="project-btn">
-                            START YOUR PROJECT
-                        </a>
-                    </div>
+                        <p class="small-heading">THIS IS FOR YOU IF:</p>
 
+                        <ul class="brand-list">
+                            <li>You feel that your business has outgrown your visual identity</li>
+                            <li>Your work has elevated but your visuals haven’t caught up</li>
+                            <li>You’re confident in your offers, but not in how you show up online</li>
+                            <li>You need a brand that supports premium prices</li>
+                            <li>You want to be recalled, referred and recognized in your industry</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- RIGHT ACCORDION -->
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
+
+                    <div class="s_box">
+                        <h3 class="details-title mb-4">The <em>Details</em></h3>
+
+                        <div class="accordion custom-accordion" id="accordionExample">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">
+                                        THE TRANSFORMATION
+                                    </button>
+                                </h2>
+                                <div id="collapseOne"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Transformation content goes here.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo">
+                                        INVESTMENT & TIMELINE
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Timeline content goes here.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree">
+                                        THE INVESTMENT COVERS:
+                                    </button>
+                                </h2>
+                                <div id="collapseThree"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Investment coverage content goes here.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- BUTTON -->
+                        <div class="mt-5">
+                            <a href="#" class="project-btn">
+                                START YOUR PROJECT
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
 
 
-<section class="brand-section section-gap s2">
-    <div class="container">
-        <div class="row ">
+    <div class="brand-section section-gap s2">
+        <div class="container">
+            <div class="row ">
 
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center">
 
-                <div class="s_box">
-                    <h3 class="details-title mb-4">The <em>Details</em></h3>
+                    <div class="s_box">
+                        <h3 class="details-title mb-4">The <em>Details</em></h3>
 
-                    <div class="accordion custom-accordion" id="accordionExample2">
+                        <div class="accordion custom-accordion" id="accordionExample2">
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour">
-                                    THE PROCESS
-                                </button>
-                            </h2>
-                            <div id="collapseFour"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    Process details go here.
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour">
+                                        THE PROCESS
+                                    </button>
+                                </h2>
+                                <div id="collapseFour"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Process details go here.
+                                    </div>
                                 </div>
                             </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive">
+                                        TIMELINE & STRUCTURE
+                                    </button>
+                                </h2>
+                                <div id="collapseFive"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Timeline structure content goes here.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix">
+                                        WHAT’S INCLUDED:
+                                    </button>
+                                </h2>
+                                <div id="collapseSix"
+                                    class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body">
+                                        Included services details go here.
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
 
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive">
-                                    TIMELINE & STRUCTURE
-                                </button>
-                            </h2>
-                            <div id="collapseFive"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    Timeline structure content goes here.
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix">
-                                    WHAT’S INCLUDED:
-                                </button>
-                            </h2>
-                            <div id="collapseSix"
-                                class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample2">
-                                <div class="accordion-body">
-                                    Included services details go here.
-                                </div>
-                            </div>
+                        <!-- BUTTON -->
+                        <div class="mt-5">
+                            <a href="#" class="project-btn">
+                                START YOUR WEBSITE PROJECT
+                            </a>
                         </div>
 
                     </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h1 class="headline mb-4">
+                        Website Design & Experience
+                    </h1>
 
+                    <p class="para">
+                        Your website should feel like an extension of your brand — clear,
+                        intentional and conversion-focused. A strategic website builds trust,
+                        communicates value, and turns visitors into aligned clients.
+                    </p>
 
-                    <!-- BUTTON -->
                     <div class="mt-5">
-                        <a href="#" class="project-btn">
-                            START YOUR WEBSITE PROJECT
-                        </a>
+                        <p class="small-heading">THIS IS FOR YOU IF:</p>
+
+                        <ul class="brand-list">
+                            <li>Your current website no longer reflects your brand quality</li>
+                            <li>You struggle to convert visitors into inquiries</li>
+                            <li>Your site feels outdated or difficult to navigate</li>
+                            <li>You want a strategic and premium online presence</li>
+                            <li>You need a website designed for long-term growth</li>
+                        </ul>
                     </div>
-
                 </div>
+
+
+
+
             </div>
-            <div class="col-lg-6 mb-4">
-                <h1 class="headline mb-4">
-                    Website Design & Experience
-                </h1>
-
-                <p class="para">
-                    Your website should feel like an extension of your brand — clear,
-                    intentional and conversion-focused. A strategic website builds trust,
-                    communicates value, and turns visitors into aligned clients.
-                </p>
-
-                <div class="mt-5">
-                    <p class="small-heading">THIS IS FOR YOU IF:</p>
-
-                    <ul class="brand-list">
-                        <li>Your current website no longer reflects your brand quality</li>
-                        <li>You struggle to convert visitors into inquiries</li>
-                        <li>Your site feels outdated or difficult to navigate</li>
-                        <li>You want a strategic and premium online presence</li>
-                        <li>You need a website designed for long-term growth</li>
-                    </ul>
-                </div>
-            </div>
+        </div>
+    </div>
 
 
 
+    <div class="mission-section s3">
+        <div class="container">
+
+            <h2 class="headline">
+                As a makeup artist my mission is to make you
+                feel like the most beautiful and confident
+                version of yourself.
+            </h2>
+
+            <p class="para">
+                I want women to feel powerful with the makeup they wear.
+                By using my knowledge and passion I will accentuate your
+                features in all the right ways.
+            </p>
+
+            <a href="#" class="service-btn mt-3">
+                <span>Contact Us <i class="fa-solid fa-arrow-right"></i></span>
+            </a>
 
         </div>
     </div>
+
+
 </section>
-
-
-
-<section class="mission-section ">
-    <div class="container">
-
-        <h2 class="headline">
-            As a makeup artist my mission is to make you
-            feel like the most beautiful and confident
-            version of yourself.
-        </h2>
-
-        <p class="para">
-            I want women to feel powerful with the makeup they wear.
-            By using my knowledge and passion I will accentuate your
-            features in all the right ways.
-        </p>
-
-        <a href="#" class="service-btn mt-3">
-            <span>Contact Us <i class="fa-solid fa-arrow-right"></i></span>
-        </a>
-
-    </div>
-</section>
-
-
-
 
 <?php include 'subpages/footer.php' ?>

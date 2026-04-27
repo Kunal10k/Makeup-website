@@ -30,6 +30,10 @@
     <!-- Fancybox CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 
+
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
@@ -236,20 +240,6 @@
                     </li>
 
 
-                    <!-- BOOK NOW BUTTON -->
-
-                    <li class="nav-item">
-
-                        <button class="book-btn ms-2"
-                            data-bs-toggle="modal"
-                            data-bs-target="#bookingModal">
-
-                            <i class="fa-solid fa-calendar-check"></i>
-                            Book Now
-
-                        </button>
-
-                    </li>
 
                 </ul>
 

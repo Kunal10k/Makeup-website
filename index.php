@@ -250,21 +250,23 @@
     <div class="insta-profile-row w-50 m-auto shadow-2">
 
         <div class="profile-left">
-            <img src="https://i.pravatar.cc/100" alt="profile">
+            <img src="assets/img/nk (1).jpg" alt="profile">
             <div>
-                <h4>Jasmine Fitzsimons</h4>
-                <span>Luxury MUA</span>
+                <h4>Nikita Agarwal </h4>
+                <span>Make-up artist</span>
             </div>
         </div>
 
         <div class="profile-stats">
-            <div><strong>422</strong><span>Posts</span></div>
-            <div><strong>2.7K</strong><span>Followers</span></div>
-            <div><strong>2.7K</strong><span>Following</span></div>
+            <div><strong>199</strong><span>Posts</span></div>
+            <div><strong>6975K</strong><span>Followers</span></div>
+            <div><strong>1428K</strong><span>Following</span></div>
         </div>
 
-        <button class="follow-btn">Follow</button>
+        <a href="https://www.instagram.com/nikkisartistry_?igsh=MWJsMWs0OHU2N3dxMw%3D%3D">
 
+            <button class="follow-btn">Follow</button>
+        </a>
     </div>
 
 
